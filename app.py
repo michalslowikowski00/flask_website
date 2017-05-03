@@ -14,7 +14,7 @@ app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = 'michal.slowikowski.mailer@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Zuzia007?!'
+app.config['MAIL_PASSWORD'] = ''
 
 mail = Mail(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://Michal@localhost/flask_tut'
